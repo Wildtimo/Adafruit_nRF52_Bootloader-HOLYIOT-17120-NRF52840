@@ -1,5 +1,5 @@
-#ifndef _HOLYIOT_17120_H
-#define _HOLYIOT_17120_H
+#ifndef _HOLYIOT_17120_NRF52840_H
+#define _HOLYIOT_17120_NRF52840_H
 
 /*------------------------------------------------------------------*/
 /* LED
@@ -9,9 +9,6 @@
 #define LED_PRIMARY_PIN   PINNUM(1, 1)
 #define LED_STATE_ON      1
 
-// No secondary LED
-#define LED_SECONDARY_PIN 0xFF
-
 
 /*------------------------------------------------------------------*/
 /* BUTTON
@@ -20,9 +17,9 @@
 // No buttons on this board
 // DFU is entered by USB bootloader timeout or software reset
 
-#define BUTTON_DFU        0xFF
-#define BUTTON_DFU_OTA    0xFF
-#define BUTTON_PULL       NRF_GPIO_PIN_PULLUP
+#define BUTTON_DFU     PINNUM(0, 18) // unusable: RESET
+#define BUTTON_DFU_OTA PINNUM(0, 21) // no connection
+#define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
 
 
 //--------------------------------------------------------------------+
