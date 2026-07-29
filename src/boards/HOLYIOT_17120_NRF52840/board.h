@@ -1,12 +1,12 @@
-#ifndef HOLYIOT_17120_H
-#define HOLYIOT_17120_H
+#ifndef _HOLYIOT_17120_H
+#define _HOLYIOT_17120_H
 
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
 
 #define LEDS_NUMBER       1
-#define LED_PRIMARY_PIN   33      // P1.01 = (1*32)+1
+#define LED_PRIMARY_PIN   PINNUM(1, 1)
 #define LED_STATE_ON      1
 
 // No secondary LED
@@ -47,4 +47,4 @@
 #define UF2_INDEX_URL         "http://www.holyiot.com/acp_view.asp?id=280"
 
 
-#endif // HOLYIOT_17120_H
+#endif // _HOLYIOT_17120_H
