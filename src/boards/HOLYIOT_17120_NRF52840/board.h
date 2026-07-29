@@ -37,11 +37,12 @@
 // USB
 //--------------------------------------------------------------------+
 
-#define USB_DESC_VID          0x239A
-#define USB_DESC_UF2_PID      0x00DA
-#define USB_DESC_CDC_ONLY_PID 0x00DA
+#define USB_DESC_VID           0x239A
+#define USB_DESC_UF2_PID       0x0029
+#define USB_DESC_CDC_ONLY_PID  0x002A
 
 #define UF2_PRODUCT_NAME      "HOLYIOT-17120 nRF52840"
+#define UF2_VOLUME_LABEL      "HLYT840BOOT"
 #define UF2_BOARD_ID          "HOLYIOT-17120-nRF52840-v1"
 #define UF2_INDEX_URL         "http://www.holyiot.com/acp_view.asp?id=280"
 
