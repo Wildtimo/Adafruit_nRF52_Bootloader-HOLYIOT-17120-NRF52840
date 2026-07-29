@@ -55,8 +55,8 @@ jobs:
 
     - name: Build
       run: |
-        make BOARD=${{ HOLYIOT_17120_NRF52840 }} all
-        make BOARD=${{ HOLYIOT_17120_NRF52840 }} copy-artifact
+        make BOARD=${{ matrix.board }} all
+        make BOARD=${{ matrix.board }} copy-artifact
 
     - uses: actions/upload-artifact@v4
       with:
