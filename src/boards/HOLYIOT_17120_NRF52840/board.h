@@ -16,15 +16,13 @@
 #define BLEDIS_MANUFACTURER "HOLYIOT"
 #define BLEDIS_MODEL        "17120 NRF52840"
 
-#define BUTTON_DFU     PINNUM(1, 02)
-#define BUTTON_DFU_OTA PINNUM(0, 10)
-#define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
+
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
-#define USB_DESC_VID          0x239A
-#define USB_DESC_UF2_PID      0x00B3
-#define USB_DESC_CDC_ONLY_PID 0x00B3
+#define USB_DESC_VID           0x239A
+#define USB_DESC_UF2_PID       0x0029
+#define USB_DESC_CDC_ONLY_PID  0x002A
 
 #define UF2_PRODUCT_NAME      "HOLYIOT-17120 nRF52840"
 #define UF2_VOLUME_LABEL      "HLYT840BOOT"
