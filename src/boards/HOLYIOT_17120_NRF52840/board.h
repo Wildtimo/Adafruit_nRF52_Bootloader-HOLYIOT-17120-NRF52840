@@ -16,7 +16,9 @@
 #define BLEDIS_MANUFACTURER "HOLYIOT"
 #define BLEDIS_MODEL        "17120 NRF52840"
 
-
+#define BUTTON_DFU     PINNUM(1, 02)
+#define BUTTON_DFU_OTA PINNUM(0, 10)
+#define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
