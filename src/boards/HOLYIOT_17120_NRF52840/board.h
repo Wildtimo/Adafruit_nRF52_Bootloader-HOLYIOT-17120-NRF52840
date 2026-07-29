@@ -6,7 +6,7 @@
  *------------------------------------------------------------------*/
 
 #define LEDS_NUMBER       1
-#define LED_PRIMARY_PIN   PINNUM(0, 6)
+#define LED_PRIMARY_PIN   PINNUM(0, 7)
 #define LED_STATE_ON      1
 
 
