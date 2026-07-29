@@ -43,7 +43,7 @@
 
 #define UF2_PRODUCT_NAME      "HOLYIOT-17120 nRF52840"
 #define UF2_BOARD_ID          "HOLYIOT-17120-nRF52840-v1"
-#define UF2_INDEX_URL         "https://www.holyiot.com"
+#define UF2_INDEX_URL         "http://www.holyiot.com/acp_view.asp?id=280"
 
 
 #endif // HOLYIOT_17120_H
