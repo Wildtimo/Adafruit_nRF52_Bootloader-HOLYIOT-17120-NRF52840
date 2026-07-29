@@ -17,9 +17,9 @@
 // No buttons on this board
 // DFU is entered by USB bootloader timeout or software reset
 
-#define BUTTON_DFU     PINNUM(0, 18) // unusable: RESET
-#define BUTTON_DFU_OTA PINNUM(0, 21) // no connection
-#define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
+#define BUTTON_DFU     PINNUM(1, 02)
+#define BUTTON_DFU_OTA PINNUM(0, 10)
+#define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 
 //--------------------------------------------------------------------+
